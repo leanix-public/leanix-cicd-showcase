@@ -1,8 +1,5 @@
-sudo: required
-language: node_js
-node_js:
-  - 15
+  language: bash
 
-after_success:
-  - ./travis_run.sh
+script:
+    - bash ./travis_run.sh
    
