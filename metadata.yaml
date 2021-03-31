@@ -9,7 +9,7 @@ products:
   - salesforce
 links:
   - name: 'Homepage'
-  - url: https://leanix.net
+  - url:  'https://leanix.net'
 
 sla:
   availability: 0.95
