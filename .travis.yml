@@ -1,5 +1,5 @@
 language: bash
 
 script:
-    - bash ./travis_run.sh
+    - bash ./.travis_run.sh
    
