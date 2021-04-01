@@ -1,6 +1,6 @@
 id: crm-process-api
 name: CRM Process API
-description: API to synchronise sap and salesforce
+description: API to synchronise sap and salesforce - Update
 self: https://www.leanix.net
 owner: sales-non-sap@meshlab.de
 teams:
