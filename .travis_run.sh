@@ -7,9 +7,7 @@ license-checker --json > dependencies.json
 ### Get a bearer token
 AUTH_URL=https://${LEANIX_HOST}/services/mtm/v1/oauth2/token
 BEARER=$(curl ${AUTH_URL} -u apitoken:${LEANIX_TOKEN} --data grant_type=client_credentials | jq -r '.access_token') 
-echo $AUTH_URL
-echo $BEARER
-echo "after bearer"
+
 ### Call the CICD connector
 URL=https://${LEANIX_HOST}/services/cicd-connector/v2/deployment
 MANIFEST="`pwd`/metadata.yaml"
