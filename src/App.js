@@ -14,7 +14,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Hello World
+          Hello World - live from webinar!!!
         </a>
       </header>
     </div>
