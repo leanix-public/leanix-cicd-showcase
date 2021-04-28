@@ -23,4 +23,4 @@ curl -X POST \
   "stage": "dev",
   "dependencyManager": "NPM"
 }' $URL
-echo $?
+echo "Metadata & Library information uploaded into LeanIX"
