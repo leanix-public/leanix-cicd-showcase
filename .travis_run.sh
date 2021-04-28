@@ -1,6 +1,7 @@
 #!/bin/bash
 
 ### Extract the npm dependencies
+npm install license-checker --save
 license-checker --json > dependencies.json 
 
 ### Get a bearer token
