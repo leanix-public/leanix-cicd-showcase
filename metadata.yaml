@@ -1,12 +1,12 @@
-id: crm-process-api
-name: CRM Process API
-description: API to synchronise sap and salesforce - Update
+id: order-history
+name: Order History
+description: History of all the orders of a customer, used payment method and preferred adresses.
 self: https://www.leanix.net
-owner: sales-non-sap@meshlab.de
+owner: dominik.rose@leanix.net
 teams:
-  - sales
+  - helios
 products:
-  - salesforce
+  - ebuy-webshop
 links:
   - name: Homepage
     url: https://leanix.net
