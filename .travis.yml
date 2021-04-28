@@ -1,5 +1,10 @@
-language: bash
+language: node_js
+node_js:
+  - '12.13'
 
-script:
-    - bash ./.travis_run.sh
+before_install:
+    - npm i -g license-checker 
+
+after_install:
+    - ./.travis_run.sh
    
